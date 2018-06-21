@@ -28,3 +28,6 @@ fdfs.thumb-image.height此处为图片压缩图大小
 
 fdfs.tracker-list[0]
 fastdfs.ip 此处为 fastdfs服务器的ip地址
+
+
+感谢 tobato提供的spring fastdfs整合包项目地址 https://github.com/tobato/FastDFS_Client
