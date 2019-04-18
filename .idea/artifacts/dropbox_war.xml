@@ -1,7 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="war" name="dropbox:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="dropbox-0.0.1-SNAPSHOT.war">
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dropbox</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="fileserver.war">
       <element id="artifact" artifact-name="dropbox:war exploded" />
     </root>
   </artifact>
